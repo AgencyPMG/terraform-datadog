@@ -17,7 +17,7 @@ module "datadog" {
     datadog_external_id = "CHANGME"
 
     # optional, but probably not going to need to be changed
-    datadog_aws_acount = "464622532012"
+    datadog_aws_account = "464622532012"
 
     # optional, should you want to change the name of the IAM role for Datadog
     role_name = "datadog@yourapp"
