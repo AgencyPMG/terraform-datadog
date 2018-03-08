@@ -23,7 +23,7 @@ module "datadog" {
     role_name = "datadog@yourapp"
 
     # optional, should you want to change the name of the IAM policy for datadog
-    policy_name "datadog"
+    policy_name = "datadog"
 }
 ```
 
